@@ -4,7 +4,7 @@ Things to do after installing Debian 12
 
 ## Non-free repositories
 
-* The default installation of Debian 12 stable from (https://www.debian.org/) comes with the free repositories preinstalled
+* The default installation of Debian 12 stable from https://www.debian.org/ comes with the free repositories preinstalled
 * To add non-free repositories, add `non-free contrib` to each line in `/etc/apt/sources.list`
 * `sudo nano /etc/apt/sources.list`
 ```
