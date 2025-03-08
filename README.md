@@ -17,6 +17,7 @@ deb-src http://security.debian.org/debian-security bookworm-security main contri
 deb http://deb.debian.org/debian/ bookworm-updates main contrib non-free non-free-firmware
 deb-src http://deb.debian.org/debian/ bookworm-updates main contrib non-free non-free-firmware
 ```
+* `sudo apt update && sudo apt upgrade`
 
 ## Install flatpak repositories
 
@@ -37,13 +38,13 @@ deb-src http://deb.debian.org/debian/ bookworm-updates main contrib non-free non
 ## NVIDIA Drivers
 
 * If you have an NVIDIA GPU, you can install the drivers with
-* `sudo apt install nvidia-driver`
+* `sudo apt install nvidia-driver -y`
 * `sudo reboot`
 
 ## Multimedia Codecs
 
 * Install multimedia codecs to stream videos and other media content
-* `sudo apt install libavcodec-extra vlc`
+* `sudo apt install libavcodec-extra vlc -y`
 
 ## Swapfile
 
