@@ -16,6 +16,8 @@ Things to do after installing Debian 12
   <li>deb-src http://deb.debian.org/debian/ bookworm-updates main contrib non-free non-free-firmware</li>
 </ul>
 
+`deb http://deb.debian.org/debian/ bookworm main contrib non-free non-free-firmware`
+
 ## Install flatpak repositories
 
 <ul>
