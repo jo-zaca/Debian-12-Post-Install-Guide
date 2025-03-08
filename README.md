@@ -7,7 +7,7 @@ Things to do after installing Debian 12
 <ul>
   <li>The default installation of Debian 12 stable from debian.org comes with the free repositories preinstalled</li>
   <li>To add non-free repositories, add <strong>non-free contrib</strong> to each line in <strong>/etc/apt/sources.list</strong></li>
-  <li><strong>(`sudo nano /etc/apt/sources.list)</strong></li>
+  <li><strong>(sudo nano /etc/apt/sources.list`)</strong></li>
   <li><strong>deb http://deb.debian.org/debian/ bookworm main contrib non-free non-free-firmware</strong></li>
   <li><strong>deb-src http://deb.debian.org/debian/ bookworm main contrib non-free non-free-firmware</strong></li>
   <li><strong>deb http://security.debian.org/debian-security bookworm-security main contrib non-free non-free-firmware</strong></li>
