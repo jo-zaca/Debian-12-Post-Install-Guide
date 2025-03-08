@@ -57,6 +57,7 @@ flatpak install flathub com.google.Chrome
 ```
 sudo apt install nvidia-driver -y
 ```
+* Wait at least 5 min for the driver to build, then reboot
 * `sudo reboot`
 
 ## Multimedia Codecs
