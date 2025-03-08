@@ -21,9 +21,12 @@ deb-src http://deb.debian.org/debian/ bookworm-updates main contrib non-free non
 
 ## Install flatpak repositories
 
-* To install flatpak applications you must install flatpak first and add the flathub repositories
+* To install flatpak applications you must install flatpak first:
 ```
 sudo apt install flatpak -y
+```
+* Then add the flathub repositories:
+```
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 ```
 * For Gnome:
