@@ -63,7 +63,7 @@ free -h
 sudo swapon --show
 ```
 
-## Add backport support
+## Backport support
 
 * If you want to use backport packages, add the following lines at the end of `/etc/apt/sources.list`
 * `sudo apt nano /etc/apt/sources.list`
