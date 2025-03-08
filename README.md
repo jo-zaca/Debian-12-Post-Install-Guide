@@ -23,6 +23,7 @@ deb-src http://deb.debian.org/debian/ bookworm-updates main contrib non-free non
   <li><strong>flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo</strong></li>
   <li>For Gnome <strong>sudo apt install gnome-software-plugin-flatpak</strong></li>
   <li>For KDE Plasma <strong>sudo apt install plasma-discover-backend-flatpak</strong></li>
+  <li><strong>sudo reboot</strong></li>
 </ul>
 
 ## Remove Firefox ESR and install flatpak Browser
@@ -38,6 +39,7 @@ deb-src http://deb.debian.org/debian/ bookworm-updates main contrib non-free non
 <ul>
   <li>If you have an NVIDIA GPU, you can install the drivers with</li>
   <li><strong>sudo apt install nvidia-driver</strong></li>
+  <li>sudo reboot</li>
 </ul>
 
 ## Multimedia Codecs
