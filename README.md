@@ -45,7 +45,7 @@ deb-src http://deb.debian.org/debian/ bookworm-updates main contrib non-free non
 * Install multimedia codecs to stream videos and other media content
 * `sudo apt install libavcodec-extra vlc`
 
-## Add swapfile
+## Swapfile
 
 * If you didn't create a swap partition, you can create a /swapfile, the following is for a 7.5GB /swapfile, is always recommended to use the same as your RAM
 ```
