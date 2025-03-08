@@ -70,6 +70,14 @@ sudo apt install nvidia-driver -y
 sudo apt install libavcodec-extra vlc -y
 ```
 
+## Firewall
+
+* Setting up a firewall on Debian can be done using UFW (Uncomplicated Firewall)
+* Set up firewall with:
+* `sudo apt install ufw -y`
+* `sudo ufw enable`
+* `sudo ufw status`
+
 ## Swapfile
 
 * If you didn't create a swap partition, you can create a /swapfile, the following is for a 7.5GB /swapfile, is always recommended to use the same as your RAM
