@@ -28,31 +28,43 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 ```
 * For Gnome:
 ```
-sudo apt install gnome-software-plugin-flatpak
+sudo apt install gnome-software-plugin-flatpak -y
 ```
 * For KDE Plasma:
 ```
-sudo apt install plasma-discover-backend-flatpak
+sudo apt install plasma-discover-backend-flatpak -y
 ```
 * `sudo reboot`
 
 ## Remove Firefox ESR and install flatpak Browser
 
 * The default version of Firefox in Debian 12 is Firefox ESR (Extended Support Release), which may be behind most updates, you can remove and install your favorite browser with:
-* `sudo apt remove firefox-esr`
-* To install Firefox's flatpak use `flatpak install flathub org.mozilla.firefox`
-* To install Chrome's flatpak use `flatpak install flathub com.google.Chrome`
+```
+sudo apt remove firefox-esr
+```
+* To install Mozilla Firefox's flatpak:
+```
+flatpak install flathub org.mozilla.firefox
+```
+* To install Google Chrome's flatpak:
+```
+flatpak install flathub com.google.Chrome
+```
 
 ## NVIDIA Drivers
 
 * If you have an NVIDIA GPU, you can install the drivers with
-* `sudo apt install nvidia-driver -y`
-* `sudo reboot`
+```
+sudo apt install nvidia-driver -y
+sudo reboot
+```
 
 ## Multimedia Codecs
 
 * Install multimedia codecs to stream videos and other media content
-* `sudo apt install libavcodec-extra vlc -y`
+```
+sudo apt install libavcodec-extra vlc -y
+```
 
 ## Swapfile
 
