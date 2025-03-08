@@ -22,10 +22,18 @@ deb-src http://deb.debian.org/debian/ bookworm-updates main contrib non-free non
 ## Install flatpak repositories
 
 * To install flatpak applications you must install flatpak first and add the flathub repositories
-* `sudo apt install flatpak -y`
-* `flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo`
-* For Gnome `sudo apt install gnome-software-plugin-flatpak`
-* For KDE Plasma `sudo apt install plasma-discover-backend-flatpak`
+```
+sudo apt install flatpak -y
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+```
+* For Gnome:
+```
+sudo apt install gnome-software-plugin-flatpak
+```
+* For KDE Plasma:
+```
+sudo apt install plasma-discover-backend-flatpak
+```
 * `sudo reboot`
 
 ## Remove Firefox ESR and install flatpak Browser
