@@ -91,7 +91,7 @@ deb-src http://deb.debian.org/debian/ testing-updates main contrib non-free non-
 * `sudo apt update && sudo apt upgrade`
 * Same if you use backports:
 ```
-# bookworm-backport
+# testing-backport
 deb http://deb.debian.org/debian testing-backports main contrib non-free
 deb-src http://deb.debian.org/debian testing-backports main contrib non-free
 ```
