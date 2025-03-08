@@ -47,4 +47,19 @@ deb-src http://deb.debian.org/debian/ bookworm-updates main contrib non-free non
 
 ## Add swapfile
 
+* If you didn't create a swap partition, you can create a /swapfile, the following is for a 7.5GB /swapfile, is always recommended to use the same as your RAM
+```
+free -h
+sudo swapon --show
+
+sudo dd if=/dev/zero of=/swapfile bs=1M count=7680
+sudo chmod 600 /swapfile
+sudo mkswap /swapfile
+sudo swapon /swapfile
+sudo bash -c 'echo "/swapfile swap swap defaults 0 0" >> /etc/fstab'
+
+free -h
+sudo swapon --show
+```
+
 ## Add backport support
