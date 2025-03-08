@@ -56,8 +56,8 @@ flatpak install flathub com.google.Chrome
 * If you have an NVIDIA GPU, you can install the drivers with
 ```
 sudo apt install nvidia-driver -y
-sudo reboot
 ```
+* `sudo reboot`
 
 ## Multimedia Codecs
 
