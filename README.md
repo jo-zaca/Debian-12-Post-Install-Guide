@@ -1,4 +1,4 @@
-# Debian-12-Post-Install-Guide
+# Debian 12 Post Install Guide
 
 Things to do after installing Debian 12 (stable)
 
