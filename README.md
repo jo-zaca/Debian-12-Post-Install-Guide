@@ -19,7 +19,7 @@ deb-src http://deb.debian.org/debian/ bookworm-updates main contrib non-free non
 ```
 * `sudo apt update && sudo apt upgrade`
 
-## Install flatpak repositories
+## Install flatpak and flathub repositories
 
 * To install flatpak applications you must install flatpak first:
 ```
