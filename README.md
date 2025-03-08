@@ -65,4 +65,27 @@ sudo swapon --show
 
 ## Add backport support
 
-## Add switch to Debian testing/sid
+* If you want to use backport packages, add the following lines at the end of `/etc/apt/sources.list`
+* `sudo apt nano /etc/apt/sources.list`
+```
+# bookworm-backport
+deb http://deb.debian.org/debian bookworm-backports main contrib non-free
+deb-src http://deb.debian.org/debian bookworm-backports main contrib non-free
+```
+* `sudo apt update && sudo apt upgrade`
+
+## Switch to Debian 12 Testing branch
+
+* If you want to use the Debian 12 testing branch, replace `bookworm` with `testing` in `/etc/apt/sources.list`
+* `sudo nano /etc/apt/sources.list`
+```
+deb http://deb.debian.org/debian/ testing main contrib non-free non-free-firmware
+deb-src http://deb.debian.org/debian/ testing main contrib non-free non-free-firmware
+
+deb http://security.debian.org/debian-security testing-security main contrib non-free non-free-firmware
+deb-src http://security.debian.org/debian-security testing-security main contrib non-free non-free-firmware
+
+deb http://deb.debian.org/debian/ testing-updates main contrib non-free non-free-firmware
+deb-src http://deb.debian.org/debian/ testing-updates main contrib non-free non-free-firmware
+```
+* `sudo apt update && sudo apt upgrade`
