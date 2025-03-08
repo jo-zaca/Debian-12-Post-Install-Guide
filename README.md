@@ -64,3 +64,5 @@ sudo swapon --show
 ```
 
 ## Add backport support
+
+## Add switch to Debian testing/sid
