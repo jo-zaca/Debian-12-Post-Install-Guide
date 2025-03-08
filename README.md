@@ -17,7 +17,7 @@ Things to do after installing Debian 12
 ## Install flatpak repositories
 
 * To install flatpak applications you must install flatpak first and add the flathub repositories
-* `sudo install flatpak -y`
+* `sudo apt install flatpak -y`
 * `flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo`
 * For Gnome `sudo apt install gnome-software-plugin-flatpak`
 * For KDE Plasma `sudo apt install plasma-discover-backend-flatpak`
