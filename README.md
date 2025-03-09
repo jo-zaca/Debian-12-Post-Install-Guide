@@ -80,7 +80,7 @@ sudo apt install libavcodec-extra vlc -y
 
 ## Swapfile
 
-* If you didn't create a swap partition, you can create a /swapfile, the following is for a 7.5GB /swapfile, is always recommended to use the same as your RAM
+* If you didn't create a swap partition, you can create a /swapfile, the following example is for adding a 7.5GB /swapfile, recommended for systems with 8GB of RAM:
 ```
 free -h
 sudo swapon --show
@@ -94,6 +94,10 @@ sudo bash -c 'echo "/swapfile swap swap defaults 0 0" >> /etc/fstab'
 free -h
 sudo swapon --show
 ```
+* Modern recommendations vary based on use cases:
+* Equal to RAM (1x RAM): common for general-purpose systems, ensuring adequate swap space without overcommitting storage
+* Twice RAM (2x RAM): more useful for systems with low RAM (<4GB) or for applications requiring significant swap (e.g., hibernation, heavy multitasking)
+* Less than RAM (<1x RAM): often fine for high-RAM systems (16GB+), where swap is rarely needed
 
 ## Backport support
 
